@@ -1,8 +1,8 @@
 FROM alpine:latest
 MAINTAINER "Dave Walker <email@daviey.com>"
 
-ENV TERRAFORM_VERSION=0.10.6
-ENV TERRAFORM_SHA256SUM=fbb4c37d91ee34aff5464df509367ab71a90272b7fab0fbd1893b367341d6e23
+ENV TERRAFORM_VERSION=0.10.8
+ENV TERRAFORM_SHA256SUM=b786c0cf936e24145fad632efd0fe48c831558cc9e43c071fffd93f35e3150db
 
 RUN apk upgrade libssl1.0 --update-cache && \
     apk add git wget curl ca-certificates make bash findutils && \
